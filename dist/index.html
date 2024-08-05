@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Recipe page</title>
 
 </head>
 <body>
-  <div class="hero">
-    <div class="image-header">
+  <main class="hero">
+    <section class="image-header">
       <img src="/assets/images/image-omelette.jpeg" alt="Omelette image">
       <h2>
         Simple Omelette Recipe
@@ -20,24 +20,33 @@
         An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.
       </p>
-    </div>
-    <div class="prep-time">
+    </section>
+    <section class="prep-time">
       <p>
         Preparation time
       </p>
       <ul>
         <li>
-          Total: Approximately 10 minutes
+          <span>
+            Total:
+          </span>
+           Approximately 10 minutes
         </li>
         <li>
-          Preparation: 5 minutes
+          <span>
+            Preparation:
+          </span>
+           5 minutes
         </li>
         <li>
-          Cooking: 5 minutes
+          <span>
+            Cooking:
+          </span>
+           5 minutes
         </li>
       </ul>
-    </div>
-    <div class="ingredients">
+    </section>
+    <section class="ingredients">
       <h3>
         Ingredients
       </h3>
@@ -58,7 +67,7 @@
           Optional fillings: cheese, diced vegetables, cooked meats, herbs  
         </li>
       </ul>
-    </div>
+    </section>
     <section class="instructions">
       <h3>
         Instructions
@@ -106,12 +115,26 @@
       <p>
         The table below shows nutritional values per serving without the additional fillings.
       </p>
-      <p><span>Calories</span> <span>277kcal</span></p>
-      <p><span>Carbs</span><span>0g</span></p>
-      <p><span>Protein</span><span>20g</span></p>
-      <p><span>Fat</span><span>22g</span></p>
+      <div class="calories">
+        Calories
+        <span>277kcal</span>
+      </div>
+      <div class="carbs">
+        Carbs
+        <span>0g</span>
+      </div>
+      <div class="Protein">
+        Protein
+        <span>20g</span>
+      </div>
+      <div class="fat">
+        Fat
+        <span>
+          22g
+        </span>
+      </div>
     </section>
-  </div>
+  </main>
 
 </body>
 </html>
